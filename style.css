@@ -1,0 +1,432 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+h1{
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+}
+h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: white;
+    font-family: Poppins;
+}
+.container{
+    display: flex;
+    flex-direction: column;  
+}
+.container-cabeçalho{
+    display: flex;
+    flex-direction: column;  
+}
+.containerLayout{
+    margin: 0 15% 0 15%;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    line-height: 4rem;
+    background-color: black;
+    text-decoration: none;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem  rgba(128, 128, 128, 0.33);
+}
+#headerCabeçalho{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 10rem 5rem 0 5rem;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(31, 31, 243);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 3.2rem;
+    text-transform: uppercase;
+    padding: 10rem;
+}
+#headerCabeçalho h1{ 
+    margin: 0;
+    color: black;
+}
+.ftPerfil{
+    margin: 0;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 10rem;
+    border: 5px solid black;
+}
+
+.apresentação{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem; 
+}
+.logo h1{
+    margin: 0;
+    font-family: 'Fruktur', cursive;
+}
+.logo a {
+    color: white;
+}
+.menu {
+    display: flex;
+    font-weight: 600;
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem; 
+    align-items: center; 
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.menu li {
+    margin: 0 25px;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 2rem;
+    font-family: 'Work Sans', sans-serif;
+}
+.menuIcon {
+    display: flex;
+    font-weight: 600;
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem; 
+    align-items: center; 
+}
+.menuIcon ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.menuIcon li {
+    margin: 0 25px;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 2rem;
+    font-family: 'Fruktur', cursive;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#mim{               
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.4rem;
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+#sobreMim{
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    padding: 10rem;
+    margin-top: 3rem;
+    border-bottom: 3px solid black;
+}
+#sobreMim h1{
+    color: #000000;
+}
+#sobreMim p {
+    text-align: center;
+    color: #000000;
+    margin-top: 2rem;
+}
+
+.js{
+    height: 9rem;
+    width: 9rem;
+    align-items: center;
+    
+}
+.html{
+    height: 9rem;
+    width: 9rem;
+    align-items: center;
+}
+.css{
+    height: 9rem;
+    width: 9rem;
+    align-items: center;
+}
+
+#rodape{
+    color: white;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: black;
+    padding: 3rem;
+    font-size: 1.2rem;
+}
+
+#oqEstudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: black;
+    padding: 10rem;
+    border-bottom: 3px solid black;
+    margin: 0;
+}
+#oqEstudos h3{
+    color: blue;
+}
+
+#estudos{
+    margin: 3rem 0 3rem 0;
+    align-items: center;
+}
+#animacaoCss{
+    display: flex; 
+    margin: 3rem 0 0 0 ;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    border: 5px solid black;
+    padding: 2rem;
+}
+#animacaoJs {
+    display: flex;
+    margin: 3rem 0 0 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    border: 5px solid black;
+    padding: 2rem;
+}
+#animacaoHtml {
+    display: flex;
+    margin: 3rem 0 0 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    border: 5px solid black;
+    padding: 2rem;
+}
+
+
+#Js{
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    border: 3px solid black;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem gray;
+}
+#Html {
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    border: 3px solid black;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem gray;
+}
+#Css {
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    border: 3px solid black;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem gray;
+}
+[data-anime]{
+    margin: 0 3rem 0 3rem;
+}
+#headerProjetos{
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+    
+}
+#headerProjetos h1{
+    text-align: left;
+    color: black;
+    padding: 2rem;
+}
+.projetos{
+    display: flex;
+    justify-content: space-around;
+}
+.ideias{
+    margin-left: 2rem;
+    padding: 4rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    box-shadow:0.3rem 0.3rem 0.3rem 0.3rem rgba(2, 2, 79, 0.481);
+    transition: 0.5s;
+}
+.ideias:hover{
+    transform: scale(1.2,1.2);
+}
+.ideias a{
+    font-size: 1.4rem;
+    color: black;
+    font-family: 'Lexend', sans-serif;
+}
+
+.fa-brands{
+    font-size: 2.2rem;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 877px){
+ 
+    .menuIcon{
+        display: none;
+    }
+    .logo{
+        justify-content: space-between;
+    }
+    .menu{
+        display: none;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #headerCabeçalho{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+        padding: 10rem 0 5rem 0;
+    }
+    .ftPerfil{
+        margin: 0;
+        height: 15rem;
+        width: 15rem;
+        border: 0;
+        border-radius: 10rem;
+        box-shadow: rgb(2, 2, 79);    
+    }
+    #sobreMim{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 0 10rem 0;
+
+    }
+    #mim{
+        margin-top: 1rem;
+    }
+    .item{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon button{
+        color: white;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    .mobile-menu{
+        text-align: center;
+        align-items: center;
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+    .mobile-menu li{
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        align-items: center;
+    }
+    .mobile-menu .item{
+        display: flex;
+        padding-top: 1.2rem;
+    }
+    .open{
+        display: block;
+    }
+    .projetos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .ideias{
+        margin: 3rem;
+        padding:6rem;
+    }
+        .ideias:hover {
+            transform: scale(1.2, 1.2);
+        }
+    #headerProjetos{
+        text-align: center;
+        align-items: center;
+        padding: 5rem 0 5rem 0; 
+    }
+    #oqEstudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 5rem 0 5rem 0;
+    }
+    #estudos{
+       margin-top: 4rem;
+       align-items: center;
+       text-align: center;
+    }
+    [data-anime]{
+        margin: 0 1rem 0 1rem;
+    }
+}
