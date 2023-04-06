@@ -107,6 +107,9 @@ body{
     justify-content: center;
     list-style-type: none;
 }
+.menu li:hover{
+    transform: scale(1.2,1.2);
+}
 .menu li {
     margin: 0 25px;
     font-family: Poppins;
@@ -129,6 +132,9 @@ body{
     display: flex;
     justify-content: center;
     list-style-type: none;
+}
+.menuIcon li:hover {
+    transform: scale(1.2, 1.2);
 }
 .menuIcon li {
     margin: 0 25px;
@@ -251,6 +257,10 @@ a {
     padding: 1rem;
     border: 3px solid black;
     box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem gray;
+    transition: 1s;
+}
+#Js:hover{
+    transform: scale(1.1,1.1);
 }
 #Html {
     text-align: center;
@@ -258,6 +268,10 @@ a {
     padding: 1rem;
     border: 3px solid black;
     box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem gray;
+    transition: 1s;
+}
+#Html:hover {
+    transform: scale(1.1, 1.1);
 }
 #Css {
     text-align: center;
@@ -265,6 +279,10 @@ a {
     padding: 1rem;
     border: 3px solid black;
     box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem gray;
+    transition: 1s;
+}
+#Css:hover {
+    transform: scale(1.1, 1.1);
 }
 [data-anime]{
     margin: 0 3rem 0 3rem;
