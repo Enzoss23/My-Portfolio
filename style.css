@@ -50,6 +50,7 @@ body{
     position: fixed;
     width: 100%;
     box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem  rgba(128, 128, 128, 0.33);
+    z-index: 1;
 }
 #headerCabeçalho{
     display: flex;
@@ -350,6 +351,7 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        z-index: 1;
     }
     #headerCabeçalho{
         display: flex;
