@@ -12,9 +12,11 @@ function menuShow(){
 const js = document.getElementById('Js')
 const html = document.getElementById('Html')
 const css = document.getElementById('Css')
+const git = document.getElementById('git')
 js.addEventListener('click', clicar)
 html.addEventListener('click', toque)
 css.addEventListener('click', touch)
+git.addEventListener('click', tocar)
 
 function clicar () {
     const scroll = document.getElementById('Js')
@@ -44,3 +46,19 @@ function touch (){
         textoCss.innerHTML = 'CSS é uma linguagem de estilização responsável por toda a parte de designer e coloração do site, ficando atrativo com os estilos e fontes.'
     }
 }
+function tocar(){
+    const textogit = document.getElementById('git')
+    if(textogit.innerHTML != 'Clique Aqui!'){
+        textogit.innerHTML = 'Clique Aqui!'
+    }
+    else{
+        textogit.innerHTML = 'Git é um sistema de controle de versões distribuído, usado principalmente para desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.'
+    }
+}
+document.addEventListener("DOMContentLoaded", () => {
+    new TypeIt('.animated',{
+    speed: 200,
+    loop: true,
+    }).type('Enzo Santos Souza')
+    .go()
+})

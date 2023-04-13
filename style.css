@@ -82,6 +82,7 @@ body{
 .apresentação{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .logo{
@@ -179,21 +180,24 @@ a {
     color: #000000;
     margin-top: 2rem;
 }
-
-.js{
-    height: 9rem;
-    width: 9rem;
+.git {
+    height: 8rem;
+    width: 8rem;
     align-items: center;
-    
+}
+.js{
+    height: 8rem;
+    width: 8rem;
+    align-items: center; 
 }
 .html{
-    height: 9rem;
-    width: 9rem;
+    height: 8rem;
+    width: 8rem;
     align-items: center;
 }
 .css{
-    height: 9rem;
-    width: 9rem;
+    height: 8rem;
+    width: 8rem;
     align-items: center;
 }
 
@@ -209,8 +213,6 @@ a {
 #oqEstudo{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
     align-items: center;
     color: black;
     padding: 10rem;
@@ -220,37 +222,54 @@ a {
 #oqEstudos h3{
     color: blue;
 }
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+    align-items: center;
+    text-align: center;
+}
 
 #estudos{
     margin: 3rem 0 3rem 0;
     align-items: center;
 }
-#animacaoCss{
-    display: flex; 
-    margin: 3rem 0 0 0 ;
+#animacaoGit {
+    display: flex;
     padding: 0;
     text-align: center;
     align-items: center;
     border: 5px solid black;
     padding: 2rem;
+    margin: 3rem 0 0 0;
+}
+#animacaoCss{
+    display: flex; 
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    border: 5px solid black;
+    padding: 2rem;
+    margin: 3rem 0 0 0;
 }
 #animacaoJs {
     display: flex;
-    margin: 3rem 0 0 0;
     padding: 0;
     text-align: center;
     align-items: center;
     border: 5px solid black;
     padding: 2rem;
+    margin: 3rem 0 0 0;
 }
 #animacaoHtml {
     display: flex;
-    margin: 3rem 0 0 0;
     padding: 0;
     text-align: center;
     align-items: center;
     border: 5px solid black;
     padding: 2rem;
+    margin: 3rem 0 0 0;
 }
 
 
@@ -261,9 +280,11 @@ a {
     border: 3px solid black;
     box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem gray;
     transition: 0.4s;
+    margin-left: 2rem;
 }
 #Js:hover{
     transform: scale(1.1,1.1);
+    background-color: yellow;
 }
 #Html {
     text-align: center;
@@ -272,9 +293,11 @@ a {
     border: 3px solid black;
     box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem gray;
     transition: 0.4s;
+    margin-left: 2rem;
 }
 #Html:hover {
     transform: scale(1.1, 1.1);
+    background-color: orange;
 }
 #Css {
     text-align: center;
@@ -283,12 +306,28 @@ a {
     border: 3px solid black;
     box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem gray;
     transition: 0.4s;
+    margin-left: 2rem;
 }
 #Css:hover {
     transform: scale(1.1, 1.1);
+    background-color: lightblue;
+}
+#git{
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    border: 3px solid black;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem gray;
+    transition: 0.4s;
+    margin-left: 2rem;
+}
+
+#git:hover {
+    transform: scale(1.1, 1.1);
+    background-color: orangered;
 }
 [data-anime]{
-    margin: 0 3rem 0 3rem;
+    margin: 0 1rem 0 1rem;
 }
 #headerProjetos{
     display: flex;
