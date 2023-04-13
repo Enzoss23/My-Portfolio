@@ -240,36 +240,40 @@ a {
     padding: 0;
     text-align: center;
     align-items: center;
-    border: 5px solid black;
+    border: 2px solid black;
     padding: 2rem;
     margin: 3rem 0 0 0;
+    box-shadow: 0.3rem 0.5rem 0.3rem 0.5rem rgba(128, 128, 128, 0.33);
 }
 #animacaoCss{
     display: flex; 
     padding: 0;
     text-align: center;
     align-items: center;
-    border: 5px solid black;
+    border: 2px solid black;
     padding: 2rem;
     margin: 3rem 0 0 0;
+    box-shadow: 0.3rem 0.5rem 0.3rem 0.5rem rgba(128, 128, 128, 0.33);
 }
 #animacaoJs {
     display: flex;
     padding: 0;
     text-align: center;
     align-items: center;
-    border: 5px solid black;
+    border: 2px solid black;
     padding: 2rem;
     margin: 3rem 0 0 0;
+    box-shadow: 0.3rem 0.5rem 0.3rem 0.5rem rgba(128, 128, 128, 0.33);
 }
 #animacaoHtml {
     display: flex;
     padding: 0;
     text-align: center;
     align-items: center;
-    border: 5px solid black;
+    border: 2px solid black;
     padding: 2rem;
     margin: 3rem 0 0 0;
+    box-shadow: 0.3rem 0.5rem 0.3rem 0.5rem rgba(128, 128, 128, 0.33);
 }
 
 
