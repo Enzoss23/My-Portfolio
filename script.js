@@ -59,6 +59,6 @@ document.addEventListener("DOMContentLoaded", () => {
     new TypeIt('.animated',{
     speed: 200,
     loop: true,
-    }).type('Enzo Santos Souza')
+    }).type("Enzo Santos Souza", {delay: 5000})
     .go()
 })
