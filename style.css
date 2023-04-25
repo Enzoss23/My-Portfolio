@@ -338,7 +338,6 @@ a {
     display: flex;
     flex-direction: column;
     padding: 10rem;
-    
 }
 #headerProjetos h1{
     text-align: left;
@@ -347,12 +346,19 @@ a {
 }
 .projetos{
     display: flex;
-    justify-content: space-around;
+}
+#todolist{
+    background-image: url(todolist.png);
+    background-size: cover;
+    background-position: center;
 }
 .ideias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 2rem;
-    padding: 4rem;
-    text-align: center;
+    height: 200px;
+    width: 200px;
     border-radius: 1.5rem;
     box-shadow:0.3rem 0.3rem 0.3rem 0.3rem rgba(2, 2, 79, 0.481);
     transition: 0.5s;
