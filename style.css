@@ -392,7 +392,18 @@ a {
 
 
 @media screen and (max-width: 877px){
- 
+    .container-cabeçalho{
+        display: flex;
+        justify-content: center;
+    }
+     .container-Layout {
+            display: flex;
+            justify-content: center;
+        }
+    #rodape {
+                    display: flex;
+                    justify-content: center;
+                }
     .menuIcon{
         display: none;
     }
