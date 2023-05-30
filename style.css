@@ -4,9 +4,10 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-html {
+html{
     scroll-behavior: smooth;
 }
+
 h1{
     font-size: 48px;
     font-family: 'Poppins', sans-serif;
@@ -28,6 +29,7 @@ h3{
 body{
     background-color: white;
     font-family: Poppins;
+   
 }
 .container{
     display: flex;
@@ -51,6 +53,7 @@ body{
     width: 100%;
     box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem  rgba(128, 128, 128, 0.33);
     z-index: 1;
+    width: 100vw;
 }
 #headerCabeçalho{
     display: flex;
@@ -63,9 +66,8 @@ body{
     color: rgb(31, 31, 243);
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-    padding: 3.2rem;
-    text-transform: uppercase;
     padding: 10rem;
+    text-transform: uppercase;
 }
 #headerCabeçalho h1{ 
     margin: 0;
@@ -203,13 +205,15 @@ a {
 }
 
 #rodape{
+    width: 100%;
+}
+footer{
     color: white;
     margin-top: 3rem;
     text-align: center;
     background-color: black;
     padding: 3rem;
     font-size: 1.2rem;
-    width: 100%;
 }
 
 #oqEstudo{
@@ -401,9 +405,12 @@ a {
             justify-content: center;
         }
     #rodape {
-                    display: flex;
-                    justify-content: center;
-                }
+        width: 100vw;
+     }
+     footer{
+        display: flex;
+        justify-content: center;
+     }
     .menuIcon{
         display: none;
     }
