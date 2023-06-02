@@ -53,7 +53,7 @@ body{
     width: 100%;
     box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem  rgba(128, 128, 128, 0.33);
     z-index: 1;
-    width: 100%;
+    width: 100vw;
 }
 #headerCabeçalho{
     display: flex;
